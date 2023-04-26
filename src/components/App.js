@@ -13,7 +13,7 @@ class App extends React.Component {
         axios.get("https://www.googleapis.com/youtube/v3/search", {
             params: {
                 q: input,
-                key: "AIzaSyCC-ZG5TV0NicmDxY_xptXr_2KOa5TJO6Q",
+                key: "AIzaSyBT8q6KDWyVJKAnyzlWIXTKgWfBVQSbIFw",
                 part: "snippet", //snippet have a data such as thumbnails & MetaData
                 maxResults: 5,
             }

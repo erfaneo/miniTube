@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.89c59dae.css","mappings":"AAAA,YACI,kBACJ,CAEA,mBACI,cACJ,CAEA,kBACI,6BAAsB,CAAtB,qBACJ","sources":["components/VideoList.css"],"sourcesContent":[".list-cards{\n    transition: all 400ms;\n}\n\n.nail-imgs, .nail-h {\n    cursor: pointer;\n}\n\n.list-cards:hover{\n    transform: scale(1.07);\n}"],"names":[],"sourceRoot":""}

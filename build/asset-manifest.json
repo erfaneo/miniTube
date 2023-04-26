@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/miniTube/static/css/main.89c59dae.css",
+    "main.js": "/miniTube/static/js/main.e8605df1.js",
+    "index.html": "/miniTube/index.html",
+    "main.89c59dae.css.map": "/miniTube/static/css/main.89c59dae.css.map",
+    "main.e8605df1.js.map": "/miniTube/static/js/main.e8605df1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.89c59dae.css",
+    "static/js/main.e8605df1.js"
+  ]
+}
