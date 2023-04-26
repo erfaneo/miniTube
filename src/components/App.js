@@ -13,7 +13,7 @@ class App extends React.Component {
         axios.get("https://www.googleapis.com/youtube/v3/search", {
             params: {
                 q: input,
-                key: "AIzaSyBT8q6KDWyVJKAnyzlWIXTKgWfBVQSbIFw",
+                key: "AIzaSyA1uyKDJ5EUVQxWs1fZRrs-0tRAKbBBw_E",
                 part: "snippet", //snippet have a data such as thumbnails & MetaData
                 maxResults: 5,
             }
@@ -31,7 +31,7 @@ class App extends React.Component {
                     <div className="d-flex flex-row justify-content-center  col-12 mt-4">
                         <div className="col-7">
                             <div>
-                                <video src={this.state.vidSrc} />
+                                <embed src={this.state.vidSrc} width={680} height={480}/>
                                 </div>
                             <div></div>
                         </div>
