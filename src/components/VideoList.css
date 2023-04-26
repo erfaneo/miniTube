@@ -1,0 +1,11 @@
+.list-cards{
+    transition: all 400ms;
+}
+
+.nail-imgs, .nail-h {
+    cursor: pointer;
+}
+
+.list-cards:hover{
+    transform: scale(1.07);
+}
