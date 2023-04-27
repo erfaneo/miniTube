@@ -6,6 +6,11 @@
     cursor: pointer;
 }
 
+.nail-h {
+
+    font-size: .8rem;
+}
+
 .list-cards:hover{
-    transform: scale(1.07);
+    transform: scale(1.02);
 }

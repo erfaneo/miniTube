@@ -17,11 +17,14 @@ class SearchBar extends React.Component {
 
     render(){
         return(
-            <div className="d-flex justify-content-center mt-4">
-                <form onSubmit={this.onSubmit}>
-                    <input onChange={this.onChange} value={this.state.value} onClick={this.onClick}  type="text" className="border border-3 rounded-2 p-1" style={{color: `${this.state.color}`}}></input>
-                </form>
-                <button onClick={this.onSubmit} className="btn btn-outline-success mx-1 p-1 px-2">Search</button>
+            <div>
+                <div className="d-flex flex-column flex-sm-row justify-content-center align-items-center container mt-3">
+                    <form  onSubmit={this.onSubmit}>
+                        <input  onChange={this.onChange} value={this.state.value} onFocus={this.onClick} onClick={this.onClick}  type="text" className="col-12 border border-3 rounded-2 p-1" style={{color: `${this.state.color}`}}></input>
+                    </form>
+                    <button onClick={this.onSubmit} className="col-5 col-sm-2 col-lg-1 p-0 btn btn-outline-success mx-1 p-1 px-2 mt-2 mt-sm-0">Search</button>
+                </div>
+                <hr className="my-3 col-8 offset-2" />
             </div>
         )
     }
